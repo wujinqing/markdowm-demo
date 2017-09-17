@@ -113,15 +113,20 @@ public class Test
 
 
 
-|name | age|
+name | age
 ---- | ---
-|LearnShare | 12|
-|Mike |  32|
+LearnShare | 12
+Mike |  32
 
 |    name    | age |
 | ---------- | --- |
 | LearnShare |  12 |
 | Mike       |  32 |
+
+| left | center | right |
+| :--- | :----: | ----: |
+| aaaa | bbbbbb | ccccc |
+| a    | b      | c     |
 
 
 ## 其他
@@ -153,3 +158,24 @@ Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的�
 
 \!   惊叹
 号
+
+
+
+### 一级
+#### > &nbsp;&nbsp;&nbsp;&nbsp;二级
+
+&nbsp;&nbsp;&nbsp;&nbsp;|-- .bowerrc
+    |-- .jshintrc
+    |-- .jshintrc2
+    |-- Gruntfile.js
+    |-- README.md
+    |-- bower.json
+    |-- karma.conf.js
+    |-- package.json
+    |-- app
+        |-- app.js
+        |-- db.js
+        |-- directoryList.md
+        |-- index.html
+
+[[doc/idea]]
